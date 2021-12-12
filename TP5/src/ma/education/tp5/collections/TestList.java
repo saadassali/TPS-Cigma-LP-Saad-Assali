@@ -19,6 +19,17 @@ public class TestList {
 	List<Integer> list2= Arrays.asList(1,5,6,9,16);
 	list2.stream().map(i->i*i).filter(i->i>37).forEach(i->
 	System.out.println(i));
+//5)
+	
+	List<Integer> list3= new ArrayList<>();
+	list3.add(5);
+	list3.add(10);
+	list3.add(15);
+	list3.add(20);
+	list3.add(2,10);
+	list3.forEach(i-> System.out.println(i));
 
 	}
+	
+	
 }
